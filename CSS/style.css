@@ -6,6 +6,10 @@
 }
 
 /* General rules */
+body{
+    font-family: sans-serif;
+}
+
 .flex{
     display: flex;
     justify-content: space-between;
@@ -69,10 +73,34 @@ main>section{
     justify-content: space-between;
 }
 
+.product-info{
+    font-size: 0.7rem;
+}
+
 .clothes-product{
     width: calc(100% / 3 - 1rem);
 }
 
 .product-photo img{
     width: 100%;
+}
+
+.product-brand{
+    opacity: .7;
+}
+
+.product-name{
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.product-price{
+    color: red;
+    font-weight: 700;
+}
+
+.old-price{
+    color: grey;
+    text-decoration: line-through;
+    vertical-align: top;
 }
