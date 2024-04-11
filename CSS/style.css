@@ -82,6 +82,10 @@ main>section{
     width: calc(100% / 3 - 1rem);
 }
 
+.product-photo{
+    position: relative;
+}
+
 .product-photo img{
     width: 100%;
 }
@@ -105,11 +109,18 @@ main>section{
     text-decoration: line-through;
 }
 
+.tags{
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 85%;
+    font-weight: 900;
+    font-size: 0.8rem;
+}
+
 .discount-tag, .sustainability-tag{
     background-color: red;
     display: inline-block;
-    font-weight: 900;
-    font-size: 0.8rem;
     padding: .2rem .5rem;
 }
 
