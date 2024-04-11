@@ -129,6 +129,31 @@ main>section{
 }
 
 footer{
-    background-color: #1a1a1a;
     width: 100%;
+    background-color: #1a1a1a;
+    padding: 1rem 0;
+}
+
+footer section{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    font-size: .7rem;
+}
+
+.company-info ul{
+    gap: 0.7rem;
+    padding-top: .5rem;
+}
+
+.links-social ul{
+    justify-content: flex-start;
+    gap: .7rem;
+    padding-top: .5rem;
+    font-size: 1rem;
+}
+
+.links-social h2{
+    font-size: .7rem;
 }
