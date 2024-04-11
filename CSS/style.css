@@ -91,6 +91,7 @@ main>section:first-of-type{
 }
 
 .product-photo img{
+    position: relative;
     z-index: 1;
     width: 100%;
 }
@@ -125,6 +126,7 @@ main>section:first-of-type{
     display: inline-block;
     position: absolute;
     left: 0;
+    z-index: 2;
     top: 85%;
     font-weight: 900;
     font-size: 0.8rem;
@@ -144,6 +146,7 @@ main>section:first-of-type{
     position: absolute;
     top: 2%;
     right: 0;
+    z-index: 2;
     background-color: white;
     display: inline-block;
     padding: .5rem;
