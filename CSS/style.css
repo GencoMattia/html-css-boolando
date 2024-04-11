@@ -65,9 +65,14 @@ header>nav{
 
 main>section{
     max-width: 80%;
+    margin: 0 auto;
     justify-content: space-between;
 }
 
-.product-photo{
-    width: calc((100% / 3) - 3rem);
+.clothes-product{
+    width: calc(100% / 3 - 1rem);
+}
+
+.product-photo img{
+    width: 100%;
 }
