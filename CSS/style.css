@@ -4,3 +4,45 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* General rules */
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    list-style: none;
+    width: 100%;
+}
+
+/* End of General rules */
+
+header{
+    width: 100%;
+    background-color: #ff6900;
+}
+
+header>nav{
+    justify-content: space-between;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.nav-gender{
+    width: 20%;
+    justify-content: space-between;
+}
+
+.nav-logo{
+    width: 10rem;
+    object-fit: contain;
+}
+
+.nav-account{
+    width: 20%;
+}
+
+.nav-account ul{
+    justify-content: flex-end;
+}
