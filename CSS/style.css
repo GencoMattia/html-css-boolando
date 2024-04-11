@@ -65,4 +65,9 @@ header>nav{
 
 main>section{
     max-width: 80%;
+    justify-content: space-between;
+}
+
+.product-photo{
+    width: calc((100% / 3) - 3rem);
 }
