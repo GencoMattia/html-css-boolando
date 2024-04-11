@@ -16,27 +16,42 @@ ul{
     width: 100%;
 }
 
+.font-white{
+    color: white;
+}
+
 /* End of General rules */
 
 header{
     width: 100%;
+    height: 2rem;
     background-color: #ff6900;
 }
 
 header>nav{
     justify-content: space-between;
+    align-items: center;
     max-width: 80%;
+    height: 100%;
     margin: 0 auto;
+    font-size: .6rem;
 }
 
 .nav-gender{
     width: 20%;
-    justify-content: space-between;
+}
+
+.nav-gender ul{
+    justify-content: flex-start;
+    gap: 0.7rem;
 }
 
 .nav-logo{
-    width: 10rem;
-    object-fit: contain;
+    width: 75px;
+}
+
+.nav-logo img{
+    max-width: 100%;
 }
 
 .nav-account{
@@ -45,4 +60,9 @@ header>nav{
 
 .nav-account ul{
     justify-content: flex-end;
+    gap: .5rem;
+}
+
+main>section{
+    max-width: 80%;
 }
