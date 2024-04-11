@@ -75,6 +75,7 @@ main>section{
 
 .product-info{
     font-size: 0.7rem;
+    padding-bottom: 2rem;
 }
 
 .clothes-product{
@@ -102,5 +103,16 @@ main>section{
 .old-price{
     color: grey;
     text-decoration: line-through;
-    vertical-align: top;
+}
+
+.discount-tag, .sustainability-tag{
+    background-color: red;
+    display: inline-block;
+    font-weight: 900;
+    font-size: 0.8rem;
+    padding: .2rem .5rem;
+}
+
+.sustainability-tag{
+    background-color: #038103;
 }
